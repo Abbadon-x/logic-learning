@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+
+<script>
+function mostra(txt) {document.write(txt)}
+
+function br() {mostra("<br>")} 
+
+function calculaImc(alturaInformada, pesoInformado) {
+
+    return pesoInformado / (alturaInformada * alturaInformada)
+    
+
+
+
+}
+
+
+var nome = prompt("Por favor, informe seu nome")
+var alturaInformada = prompt(nome + ", Por favor, Informe sua altura utilizando '.' ex: 1.70")
+var pesoInformado = prompt(nome + ", Por favor, informe seu peso utilizando somente números ")
+var imc = calculaImc(alturaInformada, pesoInformado)
+
+document.write(nome + " seu imc é de : " + imc)
+
+
+</script>
