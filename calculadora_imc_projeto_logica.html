@@ -1,0 +1,47 @@
+<meta charset="UTF-8">
+
+<h3>Altura</h3>
+<input type='text' name='altura' class='altura' >
+
+<br>
+<h3>Peso</h3>
+<input type='text' name='peso' class='peso' >
+<button>Caucular Imc</button>
+
+
+<script>
+function br() {document.write("<br>")}
+function type(texto) {document.write(texto);br()}
+
+var input = document.querySelector(".altura")
+var input2 = document.querySelector(".peso")
+
+
+function calcularIMC() {
+  var altura = parseFloat(input.value);
+  var peso = parseFloat(input2.value);
+  
+  if (!isNaN(altura) && !isNaN(peso) && altura > 0 && peso > 0) {
+    var imc = peso / (altura ** 2);
+    type("Seu IMC é de: " + imc.toFixed(2) + "<br>");
+  
+    if (imc < 18.5) {
+      type("Classificação: MENOR QUE 18,5 - MAGREZA");
+    } else if (imc >= 18.5 && imc < 25) {
+      type("Classificação: ENTRE 18,5 E 24,9 - NORMAL");
+    } else if (imc >= 25 && imc < 30) {
+      type("Classificação: ENTRE 25,0 E 29,9 - SOBREPESO: OBESIDADE GRAU I");
+    } else if (imc >= 30 && imc < 40) {
+      type("Classificação: ENTRE 30,0 E 39,9 - OBESIDADE GRAU II");
+    } else {
+      type("Classificação: MAIOR QUE 40,0 - OBESIDADE GRAVE III (Mórbida)");
+    }
+  } else {
+    type("Por favor, insira valores numéricos positivos para altura e peso.");
+  }
+}
+
+var button = document.querySelector("button")
+button.onclick = calcularIMC;
+
+</script>
