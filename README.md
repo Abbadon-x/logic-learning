@@ -1,11 +1,23 @@
 # logic-learning
-this is a repository of my development logic learning , i just created it for register  my progress
+ENG •this is a repository of my development logic learning , i just created it for register  my progress
 
-In this README will be commited the description of my logic projects , all will be simple but with a solid base for the future.
-the descriptions will be in english/portuguese
+  • In this README will be commited the description 
+    of my logic projects , all will be simple but
+    with a solid base for the future.
+    the descriptions will be in 
+    english/portuguese
 
-cauculadora_imc_projeto_logica.html:
-  • IF YOU ARE A ENGLISH SPEAKER: 
+  PT• Este é o repositório de meu aprendizado 
+      de lógica de programação 
+
+   • Neste README será "comitada" a descrição 
+    dos meus projetos de lógica de programação. 
+    Todos serão simples mas com uma base sólida 
+    para o futuro.
+
+ • cauculadora_imc_projeto_logica.html:
+  
+    • ENGLISH
   
 	• This project is an IMC cauculator  
   
@@ -16,7 +28,7 @@ cauculadora_imc_projeto_logica.html:
   
 	• In the second Box your Weight in Kg
   
-	• After click in the button your IMC  will appear and you classification .
+	• After click in the button your IMC  will appear and your classification .
   
 	• The classification  going to tell if you are overweight, normal etc.
   
