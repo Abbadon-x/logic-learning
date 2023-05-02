@@ -15,9 +15,9 @@ ENG •this is a repository of my development logic learning , i just created it
     Todos serão simples mas com uma base sólida 
     para o futuro.
 
- • cauculadora_imc_projeto_logica.html:
+ • calculadora_imc_projeto_logica.html:
   
-    • ENGLISH
+   • ENGLISH
   
 	• This project is an IMC cauculator  
   
@@ -34,7 +34,7 @@ ENG •this is a repository of my development logic learning , i just created it
   
 	• This is an initial project of my carrer and i only made it to pratice my logic programation.
 
-  • SE VOCÊ FALA PORTUGUÊS:
+   • PORTUGUÊS:
   
 	• Este projeto é uma calculadora de IMC
   
