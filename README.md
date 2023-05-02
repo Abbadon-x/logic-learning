@@ -15,7 +15,7 @@ ENG •this is a repository of my development logic learning , i just created it
     Todos serão simples mas com uma base sólida 
     para o futuro.
 
- • calculadora_imc_projeto_logica.html:
+ • calculadora_imc_projeto_logica.html •
   
    • ENGLISH
   
@@ -49,3 +49,19 @@ ENG •this is a repository of my development logic learning , i just created it
 	• A classificação irá lhe dizer se você esta com sobrepeso, normal etc
   
 	• Este é um projeto inicial da minha carreira e eu somente fiz ele para praticar minha lógica de programação 
+
+
+ • creeper.html •
+ 
+ ENG    • this is a simple project 
+          I just created a creeper head in canvas tag in
+	  HTML and JS to draw the rects
+ 
+ 
+ PT     • Este é um projeto simples
+          eu apenas criei uma cabeça de creeper com a tag 
+	  canvas em HTML e JS para desenhar os retângulos
+	  
+        
+          
+	  
